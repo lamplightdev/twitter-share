@@ -1,0 +1,16 @@
+{
+  "name": "twitter-share",
+  "version": "0.0.1",
+  "description": "Twitter Share",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node --experimental-modules server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "license": "MIT"
+}
