@@ -19,7 +19,7 @@ app.get('/', async (request, response) => {
 
   const props = {
     text: 'A Twitter share button with progressive enhancement',
-    url: 'https://svelte.dev/repl/98aa20d4cb3d40dabfef7d8dae183b85',
+    url: 'https://grave-mirror.glitch.me',
     via: 'lamplightdev'
   };
 
