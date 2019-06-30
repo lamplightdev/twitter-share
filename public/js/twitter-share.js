@@ -16,7 +16,6 @@ class TwitterShare extends HTMLElement {
     this.innerHTML = template(props);
 
     const a = this.querySelector('a');
-
     a.addEventListener('click', this.open);
   }
 
@@ -24,7 +23,6 @@ class TwitterShare extends HTMLElement {
     event.preventDefault();
 
     const a = event.target;
-
     const w = 600;
     const h = 400;
     const x = (screen.width - w) / 2;
